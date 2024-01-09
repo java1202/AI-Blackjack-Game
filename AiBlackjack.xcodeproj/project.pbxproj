@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7EB13E682B4DCB0000572BBF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E672B4DCB0000572BBF /* main.cpp */; };
+		7EB13E702B4DD03600572BBF /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E6E2B4DD03600572BBF /* Card.cpp */; };
+		7EB13E732B4DD08100572BBF /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E712B4DD08100572BBF /* Deck.cpp */; };
+		7EB13E762B4DD0D400572BBF /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E742B4DD0D400572BBF /* Player.cpp */; };
+		7EB13E792B4DD13200572BBF /* AIPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E772B4DD13200572BBF /* AIPlayer.cpp */; };
+		7EB13E7C2B4DD15900572BBF /* AIDealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E7A2B4DD15900572BBF /* AIDealer.cpp */; };
+		7EB13E7F2B4DD17E00572BBF /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E7D2B4DD17E00572BBF /* Game.cpp */; };
+		7EB13E822B4DD52900572BBF /* Simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB13E802B4DD52900572BBF /* Simulation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		7EB13E642B4DCB0000572BBF /* AiBlackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AiBlackjack; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB13E672B4DCB0000572BBF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7EB13E6E2B4DD03600572BBF /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		7EB13E6F2B4DD03600572BBF /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		7EB13E712B4DD08100572BBF /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		7EB13E722B4DD08100572BBF /* Deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
+		7EB13E742B4DD0D400572BBF /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		7EB13E752B4DD0D400572BBF /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		7EB13E772B4DD13200572BBF /* AIPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIPlayer.cpp; sourceTree = "<group>"; };
+		7EB13E782B4DD13200572BBF /* AIPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIPlayer.hpp; sourceTree = "<group>"; };
+		7EB13E7A2B4DD15900572BBF /* AIDealer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIDealer.cpp; sourceTree = "<group>"; };
+		7EB13E7B2B4DD15900572BBF /* AIDealer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AIDealer.hpp; sourceTree = "<group>"; };
+		7EB13E7D2B4DD17E00572BBF /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		7EB13E7E2B4DD17E00572BBF /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		7EB13E802B4DD52900572BBF /* Simulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Simulation.cpp; sourceTree = "<group>"; };
+		7EB13E812B4DD52900572BBF /* Simulation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Simulation.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				7EB13E672B4DCB0000572BBF /* main.cpp */,
+				7EB13E6E2B4DD03600572BBF /* Card.cpp */,
+				7EB13E6F2B4DD03600572BBF /* Card.hpp */,
+				7EB13E712B4DD08100572BBF /* Deck.cpp */,
+				7EB13E722B4DD08100572BBF /* Deck.hpp */,
+				7EB13E742B4DD0D400572BBF /* Player.cpp */,
+				7EB13E752B4DD0D400572BBF /* Player.hpp */,
+				7EB13E772B4DD13200572BBF /* AIPlayer.cpp */,
+				7EB13E782B4DD13200572BBF /* AIPlayer.hpp */,
+				7EB13E7A2B4DD15900572BBF /* AIDealer.cpp */,
+				7EB13E7B2B4DD15900572BBF /* AIDealer.hpp */,
+				7EB13E7D2B4DD17E00572BBF /* Game.cpp */,
+				7EB13E7E2B4DD17E00572BBF /* Game.hpp */,
+				7EB13E802B4DD52900572BBF /* Simulation.cpp */,
+				7EB13E812B4DD52900572BBF /* Simulation.hpp */,
 			);
 			path = AiBlackjack;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB13E7C2B4DD15900572BBF /* AIDealer.cpp in Sources */,
+				7EB13E762B4DD0D400572BBF /* Player.cpp in Sources */,
+				7EB13E732B4DD08100572BBF /* Deck.cpp in Sources */,
+				7EB13E792B4DD13200572BBF /* AIPlayer.cpp in Sources */,
+				7EB13E822B4DD52900572BBF /* Simulation.cpp in Sources */,
 				7EB13E682B4DCB0000572BBF /* main.cpp in Sources */,
+				7EB13E702B4DD03600572BBF /* Card.cpp in Sources */,
+				7EB13E7F2B4DD17E00572BBF /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
